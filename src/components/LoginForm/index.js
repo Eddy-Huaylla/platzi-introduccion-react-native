@@ -8,7 +8,7 @@ export const LoginForm = () => {
 			<TextInput placeholder="Email" />
 			<TextInput placeholder="Password" />
 			<Button title="Enviar" onPress={ (e) => console.log( e ) } />
-      <Greed name="Eddy Huaylla" />
+      <Greed firstName = "Jhon" />
 		</View>
 	)
 }
